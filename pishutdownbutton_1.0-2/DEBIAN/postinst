@@ -1,0 +1,4 @@
+# postinst
+sudo pip3 install --upgrade RPi.GPIO
+systemctl enable pishutdownbutton
+systemctl start pishutdownbutton
